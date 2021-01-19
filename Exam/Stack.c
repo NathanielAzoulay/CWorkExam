@@ -9,7 +9,9 @@ Stack *CreateStack()
     Stack *newStack;
     newStack->head = (Node *) malloc(sizeof(Node)); // ne pas oublier malloc pour ma memoire
     newStack->queue = newStack->head;
+
     //newStack->queue = Stack->head;
+
     newStack->head->next = NULL;
     return newStack;
 }

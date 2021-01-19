@@ -50,7 +50,7 @@ void StackPush(Stack *, void **item);
 
 void *StackPop(Stack *);
 /* 
-* if my stack return error
+* if my stack return error.
 */
 
 int StackGetLastError(Stack *);
