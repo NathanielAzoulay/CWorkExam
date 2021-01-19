@@ -1,10 +1,7 @@
 #pragma once
 #include <stdio.h>
 
-/**
- * Create my Stack
- * @return Stack
-*/
+
 
 /*
 * @param my struct for each node
@@ -26,8 +23,10 @@ typedef struct stack
  * All functions for my code used in the Stack.c
 */
 
-/*
-* creat and return my new stack
+/**
+ * First call 
+ * Create my Stack
+ * @return Stack
 */
 
 Stack *CreateStack();
