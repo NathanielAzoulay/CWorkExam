@@ -40,7 +40,7 @@ int main()
 
     }
     sizeof(int);
-    int* test = &a;
+    int *test = &a;
 
     struct Reouv
     {
