@@ -7,7 +7,7 @@ int main()
     Stack *stack = CreateStack(); // commencer par crée ma stack 
 
     /*
-    * Push in my stack value..
+    * Push in my stack value...
     */
 
     StackPush(stack, 5);
